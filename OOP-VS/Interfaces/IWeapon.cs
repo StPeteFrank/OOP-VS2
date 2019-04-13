@@ -32,5 +32,12 @@ namespace OOP_VS.Classes
             Console.WriteLine("Shoots fireball.");
         }
     }
+    public class GiantBoulder : IWeapon
+    {
+        public void DoDamage()
+        {
+            Console.WriteLine("Launches giant boulder at enemy.");
+        }
+    }
 
 }
